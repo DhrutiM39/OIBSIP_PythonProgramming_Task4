@@ -20,7 +20,7 @@ To build a network communication system using Python sockets where a central ser
 
 ## 📝 Steps Performed
 1. **Engineered the TCP Server** — Configured a socket listener (`server.py`) accepting TCP handshakes and launching independent worker threads for each active socket.
-2. **Integrated Database Auth** — Created `auth.py` to encrypt passwords (using simple secure comparison) and store registration logs inside a local database `chat_app.db`.
+2. **Integrated Database Auth** — Created `auth.py` to manage user registration, credential validation, and storage of user records inside the local SQLite database (chat_app.db).
 3. **Structured a Network Protocol** — Implemented header parsing blocks (such as `FILE|filename|filesize` and `USERS:count`) to allow the socket to swap seamlessly between raw text data and binary files.
 4. **Designed Socket File Streams** — Built file transfer routines in `client.py` using fixed-sized buffers (`4096` bytes) to write file streams directly to disk, avoiding memory overhead.
 5. **Developed the Front-End** — Created a Tkinter desktop chat window (`gui.py`) with full authentication states, online users tally, messaging feeds, and file uploads.
