@@ -45,8 +45,8 @@ To build a network communication system using Python sockets where a central ser
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/DhrutiM39/OIBSIP.git
-   cd OIBSIP/Task4_Chat_Application
+   git clone https://github.com/DhrutiM39/OIBSIP_PythonProgramming_Task4.git
+   cd OIBSIP_PythonProgramming_Task4
    ```
 
 2. **Start the Central Chat Server**
